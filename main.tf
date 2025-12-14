@@ -29,4 +29,6 @@ module "app" {
 module "rds" {
   source          = "./modules/rds"
   private_subnets = module.vpc.private_subnets
+  db_username     = var.db_username
+  db_password     = var.db_password
 }

@@ -1,0 +1,5 @@
+## Copy this file to `terraform.tfvars` and set real secrets before `terraform apply`.
+
+# RDS credentials - DO NOT COMMIT your actual credentials
+# db_username = "admin"
+# db_password = "YourStrongPasswordHere!"
